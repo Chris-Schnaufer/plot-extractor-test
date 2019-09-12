@@ -4,7 +4,7 @@
 """
 
 # Setup the name of our extractor.
-EXTRACTOR_NAME = ""
+EXTRACTOR_NAME = "Test-CanopyCover"
 
 # Name of scientific method for this extractor. Leave commented out if it's unknown
 #METHOD_NAME = ""
@@ -13,16 +13,16 @@ EXTRACTOR_NAME = ""
 VERSION = "1.0"
 
 # The extractor description
-DESCRIPTION = ""
+DESCRIPTION = "Testing plot extractor template"
 
 # The name of the author of the extractor
-AUTHOR_NAME = ""
+AUTHOR_NAME = "Chris Schnaufer"
 
 # The email of the author of the extractor
-AUTHOR_EMAIL = ""
+AUTHOR_EMAIL = "schnaufer@email.arizona.edu"
 
 # Reposity URI
-REPOSITORY = ""
+REPOSITORY = "https://github.com/Chris-Schnaufer/plot-extractor-test.git"
 
 # Output variable identifiers. Use a comma separated list if more than one value is returned.
 # For example, "variable 1,variable 2" identifies the two variables returned by the extractor.
@@ -30,4 +30,4 @@ REPOSITORY = ""
 # Note that variable names cannot have comma's in them: use a different separator instead. Also,
 # all white space is kept intact; don't add any extra whitespace since it may cause name comparisons
 # to fail
-VARIABLE_NAMES = ""
+VARIABLE_NAMES = "canopy_cover"

@@ -1,0 +1,25 @@
+{
+    "description": "Testing plot extractor template", 
+    "repository": [
+        {
+            "repUrl": "https://github.com/Chris-Schnaufer/plot-extractor-test.git", 
+            "repType": "git"
+        }
+    ], 
+    "author": "Chris Schnaufer <schnaufer@email.arizona.edu>", 
+    "process": {
+        "dataset": [
+            "file.added"
+        ]
+    }, 
+    "contributors": [
+        "Chris Schnaufer"
+    ], 
+    "contexts": [], 
+    "dependencies": [], 
+    "bibtex": [], 
+    "version": "1.0", 
+    "external_services": [], 
+    "@context": "http://clowder.ncsa.illinois.edu/contexts/extractors.jsonld", 
+    "name": "Test-CanopyCover"
+}
